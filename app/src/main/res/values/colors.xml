@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="textColor_tv1">#FF0000</color>
+
+    <color name="backgroundColor_tv2">#FF0000</color>
+
+    <color name="backgroundColor_tv3">#BCE3E6</color>
+    <color name="textColor_tv3">#FF0000</color>
+
+    <color name="backgroundColor_tv4">#BCE3E6</color>
+    <color name="textColor_tv4">#FF0000</color>
+
+
+    <!--<color name="textColor_tv1">#00FF00</color>-->
+
+    <!--<color name="backgroundColor_tv2">#0000FF</color>-->
+
+    <!--<color name="backgroundColor_tv3">#96DC50</color>-->
+    <!--<color name="textColor_tv3">#9E2989</color>-->
+
+    <!--<color name="backgroundColor_tv4">#D98F36</color>-->
+    <!--<color name="textColor_tv4">#36D943</color>-->
+
+
+</resources>

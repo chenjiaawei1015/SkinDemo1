@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cjw.skindemo1.MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding"
+        android:text="text1"
+        android:textColor="@color/textColor_tv1"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor_tv1"
+        android:gravity="center"
+        android:padding="@dimen/padding"
+        android:text="text2"
+        android:textSize="20sp"/>
+
+    <cjw.skindemo1.widget.MyTextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor_tv3"
+        android:gravity="center"
+        android:padding="@dimen/padding"
+        android:text="text3"
+        android:textColor="@color/textColor_tv3"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor_tv4"
+        android:gravity="center"
+        android:padding="@dimen/padding"
+        android:text="text4"
+        android:textColor="@color/textColor_tv4"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/img1"/>
+
+</LinearLayout>
